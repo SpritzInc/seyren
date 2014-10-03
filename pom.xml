@@ -382,10 +382,17 @@
     </dependencyManagement>
 
     <repositories>
+    	<!--
         <repository>
             <id>oosnmp-net-releases</id>
             <url>https://oosnmp.net/dist/release</url>
         </repository>
+        -->
+    	<repository>
+    		<id>spritz-nexus</id>
+    		<name>Spritz Nexus</name>
+    		<url>https://nexus.spritzinc.com/content/groups/public/</url>
+    	</repository>
     </repositories>
 
 </project>
