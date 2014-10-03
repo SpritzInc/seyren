@@ -384,6 +384,19 @@
         </dependencies>
     </dependencyManagement>
 
+    <distributionManagement>
+        <repository>
+            <id>Spritz-Nexus-Repositories</id>
+            <name>Spritz Nexus</name>
+            <url>https://nexus.spritzinc.com/content/repositories/releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>Spritz-Nexus-Repositories</id>
+            <name>Spritz Nexus</name>
+            <url>https://nexus.spritzinc.com/content/repositories/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
     <repositories>
     	<!--
         <repository>
@@ -392,8 +405,8 @@
         </repository>
         -->
     	<repository>
-    		<id>spritz-nexus</id>
-    		<name>Spritz Nexus</name>
+    		<id>Spritz-Nexus-Mirror</id>
+    		<name>Spritz Nexus Mirror</name>
     		<url>https://nexus.spritzinc.com/content/groups/public/</url>
     	</repository>
     </repositories>
